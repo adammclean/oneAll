@@ -11,8 +11,7 @@
 
   <tbody>
 
-  HTTParty.get('http://api.yelp.com/v2/business/yelp-san-francisco')
-
+  <%=client.business('yelp-san-francisco')%>
 
     <% @users.each do |user| %>
       <tr>
